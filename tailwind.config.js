@@ -2,10 +2,15 @@
 export default {
   content: [
     "./index.html",
+    "./privacy-policy.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'app-blue': '#455E91',
+      }
+    },
   },
   plugins: [],
 }
